@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url(./988021.jpg);
+}
+
+
+.navbar, .introbar  {
+    background-image: url(./nightcity.jpg);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+    gap: 80px;
+    flex: 1;
+    align-items: center;
+
+}
+.nav-1 {
+    color: aqua;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-2 {
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbotton {
+    color: aliceblue;
+    background-color: aqua;
+    height: 20px;
+}
+.container {
+    display: flex;
+    height: 1200px;
+    width: 700px;
+    margin: 0 auto;
+    gap: 40px;
+
+}
+
+.col-1 {
+    flex: 2;
+    
+}
+.col-2 {
+    flex: 1;
+}
+
+
+.usercard, .request, .intro, .connections, .songs{
+    border-radius: 5%;
+    
+    height: 430px;
+    margin-top: 40px;
+    
+    background-image: url(./cyberpunk-2077-night-city-cdpr.jpg);
+    
+}
+
+
+.intro {
+    height: 200px;
+}
+.songs {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    
+    
+    
+}
+.single {
+    width: 100%;
+    height: 100%;
+    
+}
+.cover {
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.detail {
+    color: gold;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.request {
+    height: 180px;
+    width: 270px;
+
+    
+}
+.connections {
+    height: 300px;
+    width: 270px;
+}
+.userbar {
+    background-color: #8ecae6;
+    border-radius: 5%;
+    width: 100%;
+    height: 150px;
+    background-image: url(./cyberpunk2077-night-city.gif);
+    background-size: auto;
+}
+.johnny {
+    width: 100px;
+    border-radius: 30%;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.name {
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: large;
+    color: gold
+    
+
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 110px;
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.alias {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    color: gold;
+}
+.gear {
+    height: 10px;
+    width: 10px;
+    margin-top: 50px;
+}
+.edit {
+    text-decoration: underline;
+    color: #6fffe9;
+}
+.text {
+    color: aqua;
+    /* margin-right: 250px; */
+
+    font-weight: bold;
+}
+.reqbar, .text {
+    background-image: url(./nightcity.jpg);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5%;
+    
+}
+.alert {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: gold;
+    border: none;
+    
+}
+.imgicon {
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+
+}
+.incoming {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    
+
+}
+.pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+.reqname, .coname {
+    color: aqua;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.accept {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gold;
+
+}
+
+.pfp2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    margin-left: 20px;
+}
+.coname {
+    margin-left: 50px;
+}
+.connect {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+a {
+    margin: 50px;
+    display: flex;
+    color: gold;
+}
+
