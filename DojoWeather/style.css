@@ -1,0 +1,26 @@
+
+.card {
+    background-color: #edede9;
+}
+.card img {
+    border-radius: 50%;
+}
+.cookie {
+    display: flex;
+    align-items: center;
+    width: 49%;
+    margin: 0 auto;
+    gap: 30px;
+    background-color: #edede9;
+}
+.cookie img {
+    height: 80px;
+}
+.cookie button {
+    width: 200px;
+    height: 40px;
+}
+
+.text p {
+    font-size: medium;
+}

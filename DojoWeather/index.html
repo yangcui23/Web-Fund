@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg bg-primary-subtle p-2 d-flex justify-content-center gap-4">
+        <a class="navbar-brand fs-1 text-light fw-bold w-25 p-3" href="">DojoWeather</a>
+        <a href="#" class="nav-link active fs-4 m-3 text-light" onclick="popUp()">Chicago</a>
+        <a href="#" class="nav-link active fs-4 m-3 text-light" onclick="popUp()">Denver</a>
+        <a href="#" class="nav-link active fs-4 m-3 text-light" onclick="popUp()">Boston</a>
+    </div>
+    <div class="navbar p-2 d-flex justify-content-evenly gap-4 border-bottom border-2">
+        <h2 class="navbar-title">San Jose</h2>
+        <div class="nav-nav d-flex gap-4">
+            <span class="navbar-description">show temperature in</span>
+            <select name="temperature" id="temperature">
+                <option value="c">C&#176</option>
+                <option value="f">F&#176</option>
+            </select>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center gap-5 ">
+        <div class="card text-center p-2 mt-3 border-0 d-flex gap-4" style="width: 11rem">
+            <p>Today</p>
+            <img src="./images/some_rain.png" alt="rain">
+            <h4>rainy</h4>
+            <div class="text d-flex justify-content-center gap-4">
+                <h4 class="number text-danger">24&#176</h4>
+                <h4 class="number text-primary">18&#176</h4>
+            </div>
+        </div>
+        <div class="card text-center p-2 mt-3 border-0 d-flex gap-4" style="width: 11rem">
+            <p>Tomorrow</p>
+            <img src="./images/some_rain.png" alt="rain">
+            <h4>rainy</h4>
+            <div class="text d-flex justify-content-center gap-4">
+                <h4 class="number text-danger">27&#176</h4>
+                <h4 class="number text-primary">19&#176</h4>
+            </div>
+        </div>
+        <div class="card text-center p-2 mt-3 border-0 d-flex gap-4" style="width: 11rem">
+            <p>Friday</p>
+            <img src="./images/some_clouds.png" alt="clouds">
+            <h4>cloudy</h4>
+            <div class="text d-flex justify-content-center gap-4">
+                <h4 class="number text-danger">21&#176</h4>
+                <h4 class="number text-primary">16&#176</h4>
+            </div>
+        </div>
+        <div class="card text-center p-2 mt-3 border-0 d-flex gap-4" style="width: 11rem">
+            <p>Saturday</p>
+            <img src="./images/some_sun.png" alt="sun">
+            <h4>sunny</h4>
+            <div class="text d-flex justify-content-center gap-4">
+                <h4 class="number text-danger">29&#176</h4>
+                <h4 class="number text-primary">21&#176</h4>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cookie border-secondary position-fixed bottom-0 start-50 translate-middle-x border border-2 " id="cookie">
+        <img src="./images/cookie.png" alt="cookie">
+        <div class="text">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our tracffic.<a href="#"> Read more....</a></p>
+        </div>
+        <button class="btn btn-primary" onclick="remove()">I Accept</button>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
