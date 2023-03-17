@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    font-weight: bold;
+    color: black;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.nav {
+    background-color: black;
+    color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+    padding: 10px;
+}
+
+.main {
+    width: 51%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.col-1, .col-2 {
+    height: 600px;
+    width: 30%;
+}
+
+.col-2 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+.side {
+    width: 100%;
+    border: 1px black solid;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: plum;
+    
+}
+
+.feed {
+    border: 1px black solid;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+}
+img {
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+.link {
+    font-weight: bold;
+    font-size: larger;
+
+
+}
+h2 {
+    font-size: xx-large;
+    
+}
+.nameNav {
+    display: flex;
+    align-items: center;
+
+}
+.nameNav, .info {
+    width: 100%;
+    height: 100px;
+    
+    
+}
+.name, .likes {
+    
+    width: 50%;
+    
+}
+.likes {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.name {
+    margin-left: 20px;
+
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.like {
+    height: 30px;
+    width: 70px;
+    box-shadow: 5px 5px;
+    background-color: peru;
+    font-weight: bold;
+}
+.info {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
