@@ -1,0 +1,65 @@
+.container {
+    border: 2px gray groove;
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+.block {
+    width: 700px;
+    height: 100px;
+    background-color: aqua;
+}
+.nav {
+    height: 150px;
+    width: inherit;
+    
+}
+.user {
+    height: 150px;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px ;
+    margin-left: 80px;
+    display: flex;
+    
+}
+p {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-size: medium;
+
+    
+}
+
+.map {
+    height: 15px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+.gear {
+   height: 20px;
+   margin-top: 20px;
+   margin-left: 100px;
+}
+.edit {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   text-decoration: underline;
+   color: blue;
+   
+
+    
+    
+}
+
